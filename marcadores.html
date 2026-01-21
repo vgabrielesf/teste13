@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Marcadores AR - Model7</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #f5f5f5;
+        }
+        .marker-container {
+            background: white;
+            margin: 20px 0;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+        .marker-image {
+            text-align: center;
+            margin: 20px 0;
+        }
+        .marker-image img {
+            max-width: 200px;
+            border: 2px solid #333;
+            padding: 10px;
+        }
+        .print-button {
+            background: #4CAF50;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+        .print-button:hover {
+            background: #45a049;
+        }
+        .instructions {
+            background: #e3f2fd;
+            padding: 15px;
+            border-radius: 5px;
+            margin: 15px 0;
+        }
+        .qr-code {
+            display: inline-block;
+            margin: 10px;
+            text-align: center;
+        }
+        .back-link {
+            background: #2196F3;
+            color: white;
+            padding: 10px 20px;
+            text-decoration: none;
+            border-radius: 5px;
+            display: inline-block;
+            margin: 20px 0;
+        }
+        .back-link:hover {
+            background: #1976D2;
+        }
+    </style>
+</head>
+<body>
+    <h1>🎯 Marcadores AR para Model7</h1>
+    
+    <div class="instructions">
+        <h3>📋 Instruções Gerais:</h3>
+        <ul>
+            <li>Imprima os marcadores em papel branco, preferencialmente A4</li>
+            <li>Use impressora a laser ou jato de tinta em alta qualidade</li>
+            <li>Mantenha os marcadores planos e sem dobras</li>
+            <li>Use boa iluminação ao usar o AR</li>
+            <li>Mantenha distância de 20-50cm da câmera</li>
+        </ul>
+    </div>
+
+    <div class="marker-container">
+        <h2>🅰️ Marcador HIRO (Principal)</h2>
+        <p><strong>Funcionalidade:</strong> Exibe o Model7 principal com animações completas</p>
+        
+        <div class="marker-image">
+            <svg width="150" height="150" viewBox="0 0 150 150">
+                <!-- Simulação do marcador HIRO -->
+                <rect width="150" height="150" fill="white" stroke="black" stroke-width="2"/>
+                <rect x="15" y="15" width="120" height="120" fill="black"/>
+                <rect x="30" y="30" width="90" height="90" fill="white"/>
+                <rect x="45" y="45" width="60" height="60" fill="black"/>
+                <rect x="60" y="60" width="30" height="30" fill="white"/>
+                <rect x="67" y="67" width="16" height="16" fill="black"/>
+                <text x="75" y="85" text-anchor="middle" font-size="8" fill="white">HIRO</text>
+            </svg>
+        </div>
+        
+        <div class="instructions">
+            <p><strong>Download:</strong> <a href="https://github.com/artoolkit/ARToolKit5/raw/master/doc/patterns/Hiro%20pattern.pdf" target="_blank">Marcador HIRO Oficial</a></p>
+            <p><strong>Alternativo:</strong> <a href="https://jeromeetienne.github.io/AR.js/data/images/HIRO.jpg" target="_blank">Imagem HIRO</a></p>
+        </div>
+        
+        <button class="print-button" onclick="window.print()">🖨️ Imprimir Página</button>
+    </div>
+
+    <div class="marker-container">
+        <h2>🔢 Marcador Código #17</h2>
+        <p><strong>Funcionalidade:</strong> Exibe Model7 pequeno + formas geométricas animadas</p>
+        
+        <div class="marker-image">
+            <svg width="150" height="150" viewBox="0 0 150 150">
+                <!-- Simulação do barcode #17 -->
+                <rect width="150" height="150" fill="white" stroke="black" stroke-width="2"/>
+                <rect x="15" y="15" width="120" height="120" fill="black"/>
+                <rect x="30" y="30" width="90" height="90" fill="white"/>
+                <!-- Padrão para código 17 -->
+                <rect x="45" y="45" width="15" height="15" fill="black"/>
+                <rect x="75" y="45" width="15" height="15" fill="black"/>
+                <rect x="105" y="45" width="15" height="15" fill="black"/>
+                <rect x="60" y="75" width="15" height="15" fill="black"/>
+                <rect x="90" y="75" width="15" height="15" fill="black"/>
+                <rect x="75" y="105" width="15" height="15" fill="black"/>
+                <text x="75" y="140" text-anchor="middle" font-size="10" fill="black">#17</text>
+            </svg>
+        </div>
+        
+        <div class="instructions">
+            <p><strong>Download:</strong> <a href="https://github.com/artoolkit/ARToolKit5/raw/master/doc/patterns/Matrix%20code%203x3%20(72dpi)/17.png" target="_blank">Código #17 Oficial</a></p>
+        </div>
+    </div>
+
+    <div class="marker-container">
+        <h2>🔟 Marcador Código #10</h2>
+        <p><strong>Funcionalidade:</strong> Exibe Model7 + helicóptero animado</p>
+        
+        <div class="marker-image">
+            <svg width="150" height="150" viewBox="0 0 150 150">
+                <!-- Simulação do barcode #10 -->
+                <rect width="150" height="150" fill="white" stroke="black" stroke-width="2"/>
+                <rect x="15" y="15" width="120" height="120" fill="black"/>
+                <rect x="30" y="30" width="90" height="90" fill="white"/>
+                <!-- Padrão para código 10 -->
+                <rect x="60" y="45" width="15" height="15" fill="black"/>
+                <rect x="90" y="45" width="15" height="15" fill="black"/>
+                <rect x="45" y="75" width="15" height="15" fill="black"/>
+                <rect x="105" y="75" width="15" height="15" fill="black"/>
+                <rect x="75" y="105" width="15" height="15" fill="black"/>
+                <text x="75" y="140" text-anchor="middle" font-size="10" fill="black">#10</text>
+            </svg>
+        </div>
+        
+        <div class="instructions">
+            <p><strong>Download:</strong> <a href="https://github.com/artoolkit/ARToolKit5/raw/master/doc/patterns/Matrix%20code%203x3%20(72dpi)/10.png" target="_blank">Código #10 Oficial</a></p>
+        </div>
+    </div>
+
+    <div class="marker-container">
+        <h2>📱 Códigos QR de Acesso Rápido</h2>
+        <p>Use estes códigos QR para acessar rapidamente os marcadores no seu celular:</p>
+        
+        <div style="text-align: center;">
+            <div class="qr-code">
+                <svg width="100" height="100">
+                    <rect width="100" height="100" fill="white" stroke="black"/>
+                    <!-- QR Code simulado -->
+                    <rect x="10" y="10" width="80" height="80" fill="black"/>
+                    <rect x="15" y="15" width="70" height="70" fill="white"/>
+                    <rect x="20" y="20" width="15" height="15" fill="black"/>
+                    <rect x="65" y="20" width="15" height="15" fill="black"/>
+                    <rect x="20" y="65" width="15" height="15" fill="black"/>
+                    <text x="50" y="95" text-anchor="middle" font-size="8">ARToolKit5</text>
+                </svg>
+                <p><strong>Repositório Oficial</strong></p>
+            </div>
+        </div>
+    </div>
+
+    <div class="marker-container">
+        <h2>🔧 Dicas de Uso</h2>
+        
+        <h3>✅ Para melhor detecção:</h3>
+        <ul>
+            <li><strong>Iluminação:</strong> Use luz natural ou artificial uniforme</li>
+            <li><strong>Distância:</strong> 20-50cm da câmera</li>
+            <li><strong>Ângulo:</strong> Mantenha o marcador perpendicular à câmera</li>
+            <li><strong>Movimento:</strong> Mova lentamente para dar tempo de detectar</li>
+        </ul>
+        
+        <h3>❌ Evite:</h3>
+        <ul>
+            <li>Marcadores dobrados, rasgados ou sujos</li>
+            <li>Reflexos de luz direta nos marcadores</li>
+            <li>Movimentos muito rápidos</li>
+            <li>Ambientes muito escuros ou muito claros</li>
+        </ul>
+        
+        <h3>📐 Tamanhos recomendados:</h3>
+        <ul>
+            <li><strong>Uso próximo (mesa):</strong> 5cm x 5cm</li>
+            <li><strong>Uso médio (demonstração):</strong> 10cm x 10cm</li>
+            <li><strong>Uso distante (apresentação):</strong> 20cm x 20cm</li>
+        </ul>
+    </div>
+
+    <div style="text-align: center;">
+        <a href="index.html" class="back-link">🔙 Voltar ao AR Model7</a>
+    </div>
+
+    <script>
+        // Função para abrir links dos marcadores
+        function openMarkerLink(url) {
+            window.open(url, '_blank');
+        }
+        
+        // Função de impressão otimizada
+        window.addEventListener('beforeprint', function() {
+            document.body.style.backgroundColor = 'white';
+        });
+        
+        window.addEventListener('afterprint', function() {
+            document.body.style.backgroundColor = '#f5f5f5';
+        });
+    </script>
+
+</body>
+</html>
